@@ -1,6 +1,6 @@
 # bem toolsを試してみた
 
-[BEM Advent Calendar 2013][0]の2日目の記事で使用したしたサンプルです。
+[BEM Advent Calendar 2013][0]の[2日目の記事][3]で使用したサンプルです。
 
 サンプルプロジェクトを引っ張ってきます。
 
@@ -30,3 +30,5 @@ index.html相当のものは [http://localhost:8080/desktop.bundles/index][2] �
 [0]: http://www.adventar.org/calendars/61
 [1]: http://localhost:8080
 [2]: http://localhost:8080/desktop.bundles/index
+[3]: http://geckotang.tumblr.com/post/68662389684/bem
+
