@@ -1,0 +1,21 @@
+.layout
+{
+    position: relative;
+    min-height: 130px;
+    background-color: #eee;
+    margin-bottom: 10px;
+}
+ 
+.layout__left
+{
+    padding-right: 200px;
+}
+
+.layout__right
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+ 
+    width: 150px;
+}
