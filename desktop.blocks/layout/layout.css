@@ -8,14 +8,10 @@
  
 .layout__left
 {
-    padding-right: 200px;
+	display: table-cell;
+	width: 60%;
 }
 
-.layout__right
-{
-    position: absolute;
-    right: 0;
-    top: 0;
- 
-    width: 150px;
+.layout__right {
+	display: table-cell;
 }
