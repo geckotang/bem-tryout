@@ -1,0 +1,10 @@
+.b-logo .b-link {
+    color: #666;
+    text-decoration: none;
+}
+ 
+.b-logo__slogan {
+    display: block;
+    font-size: 16pxk
+    margin-bottom: 5px;
+}

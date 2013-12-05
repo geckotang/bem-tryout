@@ -1,0 +1,13 @@
+.b-search {
+	position: relative;
+	top: -35px;
+}
+ 
+.b-search__input,
+.b-search__button {
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
