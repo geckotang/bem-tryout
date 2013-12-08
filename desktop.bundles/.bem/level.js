@@ -16,6 +16,7 @@ exports.getConfig = function() {
             ]
             .map(function(path) { return PATH.resolve(environ.LIB_ROOT, path); })
             .concat([
+		'blocks-common',
                 'blocks-desktop',
                 'common.blocks',
                 'desktop.blocks'

@@ -1,0 +1,14 @@
+.page__body
+{
+    font: 16px Helvetica, Arial, sans-serif;
+    background: #979797;
+}
+ 
+.page__body-inner
+{
+    box-sizing: border-box;
+    width: 800px;
+    max-width: 100%;
+    margin: 2em auto;
+    padding: 1.6em;
+}

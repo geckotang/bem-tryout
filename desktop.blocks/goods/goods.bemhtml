@@ -1,0 +1,55 @@
+block goods {
+    tag: 'ul'
+
+    content: {
+        var content = [];
+        this.ctx.goods.forEach(function(item){
+            var mods = {};
+            if (item.new) mods.new = 'yes';
+            content.push({
+                elem: 'item',
+                mods: mods,
+                content: [
+                    {
+                        elem: 'title',
+                        content: {
+                            block: 'b-link',
+                            url: item.url,
+                            content: item.title
+                        }
+                    },
+                    {
+                        elem: 'image',
+                        src: item.image
+                    },
+                    {
+                        elem: 'author',
+                        content: item.author + '(著)'
+                    },
+                    {
+                        elem: 'price',
+                        content: {
+                            block: 'b-link',
+                            mix: [{ block: 'goods', elem: 'link' }],
+                            url: item.url,
+                            content: '¥' + item.price + 'で購入する'
+                        }
+                    }
+                ]
+            });
+        });
+        return content;
+    }
+
+    elem item, tag: 'li'
+    elem title, tag: 'h3'
+    elem author, tag: 'div'
+    elem price, tag: 'div'
+    elem image {
+        tag: 'img'
+        attrs: {
+            src: this.ctx.src
+        }
+    }
+
+}

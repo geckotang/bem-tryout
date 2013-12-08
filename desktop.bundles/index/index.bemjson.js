@@ -75,6 +75,35 @@
                 }
             ]
         },
+	{
+	    block: 'goods',
+	    goods: [
+                {
+                    new: false,
+                    title: '猿でもわかるBEM',
+                    image: 'http://dummyimage.com/300x200&text=猿でもわかるBEM',
+                    price: '1,500',
+		    author: '弁梦太郎',
+                    url: 'http://example.com/'
+                },
+                {
+                    new: false,
+                    title: 'BEMテクニックバイブル -効率的なBEMに役立つ2億の技-',
+                    image: 'http://dummyimage.com/300x200&text=BEMテクニックバイブル',
+                    price: '2,500',
+		    author: 'BEMサポーターズ',
+                    url: 'http://example.com/'
+                },
+                {
+                    new: true,
+                    title: '独習 BEM',
+                    image: 'http://dummyimage.com/300x200&text=独習BEM',
+                    price: '3,500',
+		    author: '弁梦山二郎',
+                    url: 'http://example.com/'
+                }
+	    ]
+	},
         { elem: 'js', url: '_index.js' }
     ]
 })
