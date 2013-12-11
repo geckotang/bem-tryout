@@ -1,0 +1,267 @@
+/* index.css begin */
+/* ../../desktop.blocks/page/page.css begin */
+.page__body
+{
+    font: 16px Helvetica, Arial, sans-serif;
+    background: #979797;
+}
+ 
+.page__body-inner
+{
+    box-sizing: border-box;
+    width: 800px;
+    max-width: 100%;
+    margin: 2em auto;
+    padding: 1.6em;
+}
+
+/* ../../desktop.blocks/page/page.css end */
+/* ../../desktop.blocks/layout/layout.css begin */
+.layout
+{
+    display: table;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 130px;
+    background-color: #eee;
+    padding: 15px;
+    margin-bottom: 24px;
+}
+ 
+.layout__left
+{
+	display: table-cell;
+	width: 60%;
+}
+
+.layout__right {
+	display: table-cell;
+	padding-left: 24px;
+}
+
+/* ../../desktop.blocks/layout/layout.css end */
+/* ../../libs/bem-bl/blocks-desktop/b-search/b-search.css begin */
+.b-search__input
+{
+    width: 100%;
+    margin: 0;
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.b-search__button
+{
+    margin: 0;
+}
+/* ../../libs/bem-bl/blocks-desktop/b-search/b-search.css end */
+/* ../../desktop.blocks/b-search/b-search.css begin */
+.b-search {
+	position: relative;
+	top: -35px;
+}
+ 
+.b-search__input,
+.b-search__button {
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+
+/* ../../desktop.blocks/b-search/b-search.css end */
+/* ../../libs/bem-bl/blocks-desktop/b-layout-table/b-layout-table.css begin */
+.b-layout-table
+{
+    font-size: 100%;
+
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+.b-layout-table__gap,
+.b-layout-table__cell
+{
+    padding: 0;
+
+    vertical-align: top;
+}
+
+/* ../../libs/bem-bl/blocks-desktop/b-layout-table/b-layout-table.css end */
+/* ../../libs/bem-bl/blocks-desktop/b-search/__layout/b-search__layout.css begin */
+.b-search__layout-input
+{
+    width: 100%;
+
+    vertical-align: middle;
+}
+
+.b-search__layout-button
+{
+    padding-left: 6px;
+
+    vertical-align: middle;
+}
+
+/* ../../libs/bem-bl/blocks-desktop/b-search/__layout/b-search__layout.css end */
+/* ../../libs/bem-bl/blocks-desktop/b-icon/b-icon.css begin */
+.b-icon
+{
+    font: 0/0 a;
+
+    border: 0;
+
+}
+
+/* ../../libs/bem-bl/blocks-desktop/b-icon/b-icon.css end */
+/* ../../desktop.blocks/b-logo/b-logo.css begin */
+.b-logo .b-link {
+    color: #666;
+    text-decoration: none;
+}
+ 
+.b-logo__slogan {
+    display: block;
+    font-size: 16pxk
+    margin-bottom: 5px;
+}
+
+/* ../../desktop.blocks/b-logo/b-logo.css end */
+/* ../../desktop.blocks/heroImage/heroImage.css begin */
+.heroImage
+{
+	width: 100%;
+	height: auto;
+}
+
+/* ../../desktop.blocks/heroImage/heroImage.css end */
+/* ../../desktop.blocks/tab/tab.css begin */
+.tab
+{
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	list-style: none;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+
+.tab__item
+{
+	display: inline-block;
+	margin:0 0 -1px;
+	padding:0;
+	font-size: 16px;
+	width: 100px;
+	box-sizing: border-box;
+	margin-right: 1%;
+	background-color: #ddd;
+	border: 1px solid #ddd;
+	border-radius: 5px 5px 0 0;
+}
+
+.tab__item_is_current
+{
+	background-color: #fff;
+	border-bottom-color: #fff;
+}
+
+/* ../../desktop.blocks/tab/tab.css end */
+/* ../../desktop.blocks/goods/goods.css begin */
+.goods
+{
+    margin: 20px 0;
+    margin-right: -30px;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+ 
+.goods__item
+{
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    text-align: left;
+    width: 243px;
+    padding: 10px 10px 0;
+    margin-right: 10px;
+    margin-bottom:10px;
+    text-align: center;
+    font-size: 16px;
+    background:#fff;
+    border-radius: 2px;
+}
+
+.goods__title
+{
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 0 10px;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.goods__image
+{
+    max-width: 100%;
+    height: auto;
+    margin-bottom:10px;
+}
+
+.goods__author
+{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+
+.goods__price
+{
+    position: relative;
+    display: block;
+}
+ 
+.goods__link
+{
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    background: #87cefa;
+    color: #fff;
+    margin: 0 -10px;
+    padding: 12px 10px;
+    transition: background 0.2s ease-in;
+}
+ 
+.goods__item_new_yes .goods__link
+{
+    background: #ffb6c1;
+}
+
+/* ../../desktop.blocks/goods/goods.css end */
+
+/* index.css end */
+/* ../../desktop.blocks/goods/goods.hover.ie.css begin */
+.goods
+{
+}
+
+/* ../../desktop.blocks/goods/goods.hover.ie.css end */
+/* ../../desktop.blocks/goods/goods.ie.css begin */
+.goods
+{
+}
+
+.goods__item
+{
+	border: 3px solid red;
+}
+
+/* ../../desktop.blocks/goods/goods.ie.css end */

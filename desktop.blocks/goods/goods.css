@@ -67,17 +67,7 @@
     transition: background 0.2s ease-in;
 }
  
-.goods__link:hover
-{
-    background: #4169e1;
-}
-
 .goods__item_new_yes .goods__link
 {
     background: #ffb6c1;
 }
-.goods__item_new_yes .goods__link:hover
-{
-    background: tomato;
-}
-

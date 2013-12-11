@@ -1,0 +1,11 @@
+@import url(../../desktop.blocks/page/page.css);
+@import url(../../desktop.blocks/layout/layout.css);
+@import url(../../libs/bem-bl/blocks-desktop/b-search/b-search.css);
+@import url(../../desktop.blocks/b-search/b-search.css);
+@import url(../../libs/bem-bl/blocks-desktop/b-layout-table/b-layout-table.css);
+@import url(../../libs/bem-bl/blocks-desktop/b-search/__layout/b-search__layout.css);
+@import url(../../libs/bem-bl/blocks-desktop/b-icon/b-icon.css);
+@import url(../../desktop.blocks/b-logo/b-logo.css);
+@import url(../../desktop.blocks/heroImage/heroImage.css);
+@import url(../../desktop.blocks/tab/tab.css);
+@import url(../../desktop.blocks/goods/goods.css);
